@@ -25,6 +25,8 @@ eureka:
     fetch-registry: true
     service-url:
       #单机配置
+      #defaultZone: http://eureka7001.com/eureka
+      # 集群配置
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
   instance:
     #服务名称修改

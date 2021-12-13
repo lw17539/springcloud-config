@@ -1,7 +1,6 @@
 package com.cloud.demo.config;
 
 import lombok.Getter;
-import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.web.context.WebServerInitializedEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
@@ -15,6 +14,9 @@ import org.springframework.stereotype.Component;
 @Getter
 public class IpConfiguration implements ApplicationListener<WebServerInitializedEvent> {
 
+    /**
+     * 端口号
+     */
     private int serverPort;
 
     @Override
