@@ -1,3 +1,9 @@
+
+spring:
+  cloud:
+    config:
+      name: config
+
 config:
   info: "Springcloud-config,version=1"
  
