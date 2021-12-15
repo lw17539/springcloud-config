@@ -1,5 +1,7 @@
 config:
  info: "Springcloud-config,version=1"
  
+server:
+  port: 3355
  
 config.info: "Springcloud-config,version=1"
