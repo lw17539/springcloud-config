@@ -8,7 +8,7 @@ config:
   info: Springcloud-config,version=1
  
 server:
-  port: 3355
+  port: 8888
  
 
 
