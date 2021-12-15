@@ -2,7 +2,7 @@
 spring:
   cloud:
     config:
-      name: config-dev
+      name: SpringConfig
 
 config:
   info: Springcloud-config,version=1
